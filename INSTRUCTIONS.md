@@ -656,7 +656,7 @@ Ex.: https://github.com/morgnism/MSSE663-js-assignments/tree/master/week7
 
 TBD
 
-### Steup
+### Setup
 
 ```bash
 $ git checkout week7

@@ -20,6 +20,7 @@ import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { environment } from '../environments/environment';
 import { EffectsModule } from '@ngrx/effects';
 import { PizzasEffects, reducer } from './pizza-app/state';
+import { PanelDirective } from './shared/directives/panel.directive';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { PizzasEffects, reducer } from './pizza-app/state';
     PizzaToppingsComponent,
     PizzaSummaryComponent,
     SizePipe,
+    PanelDirective,
   ],
   imports: [
     BrowserModule,
